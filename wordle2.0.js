@@ -131,7 +131,7 @@ let qaArray = [
     answer: ['P','I','Z','Z','A']
 },
     {
-    question:'Sci-Fi, beam',
+    question:'Sci-Fi, beam', 
     answer: ['L','A','S','E','R']
 },
    
