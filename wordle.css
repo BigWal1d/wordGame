@@ -1,0 +1,134 @@
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    align-items: center;
+  
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+.keys{
+    /* top: 50px;
+
+    left: 50px;
+    right: 50px; */
+    height: 200px; 
+    padding: 5px;
+    bottom: 65px;
+    width: 600px;
+    position: fixed;
+    flex-direction: column;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-width: 1px;
+    border-color: black;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 1.15);
+
+}
+.row-butt{
+   color: rgb(220, 214, 214);
+   background-color: green;
+    /* height: 50px; */
+    text-align: center;
+    border-width: 3px;
+    box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.15);
+    margin: 3px;
+    border-radius: 7px;
+    padding:17px;
+    cursor: pointer;
+
+}
+.row-butt:active
+{
+    opacity: 0.6;
+}
+.input{
+    /* background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-size: 50px;
+    position: fixed;
+    border: solid;
+    height: 100px;
+    border: none;
+    border-width: 1px;
+    border-bottom: 0px;
+    width: px;
+    top: 70px;
+    padding-left: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 37px;
+    */
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0.713);
+    border-radius: 10px;
+    height: 100px;
+    border: solid;
+    opacity: 0.9;
+    padding-top: 30px;
+    border-width: 5px;
+    border-color: green;
+    text-align: center;
+     box-shadow: 2px 3px 7px rgba(0, 0, 0, 1.15);
+}
+.incont{
+    display: flex;
+    width: 552px;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100x;
+   
+    justify-content: center;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.good{
+    border-color: orange;
+    transition: 0.6s;
+}
+.bad{
+    border-color: red;
+    transition: 0.6s;
+}
+.scores{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+}
+.info{
+    font-size: 40px;
+    color: wheat;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.results{
+    font-size: 17px;
+    color:orange;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 8px;
+    background-color: wheat;
+   display: inline-block;
+    padding: 6px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.35);
+    transition: 0.15s;
+}
