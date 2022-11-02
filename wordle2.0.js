@@ -240,10 +240,10 @@ function checkLoses(){
     }
 }
 function retry(){
-    count = count +1
+  count = count +1
     clean()
     tries()
-    
+  
 }
 
 function tries(){
@@ -291,6 +291,7 @@ function next(){
 }
 
 function newOne(){
+    count = 0
     if(it<=qaArray.length){
      clean()
     it = it+1
