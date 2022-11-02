@@ -17,7 +17,7 @@ const row3 = ['Z','X','C','V','B','N','M']
 let wordArr = ['W','A','L','I','D']
 let inputArr = []
 const winWord = 'WALID'
-
+let change = [  ]
   let di 
   function write(){
     row1.forEach(function(key){
