@@ -17,7 +17,7 @@ const row3 = ['Z','X','C','V','B','N','M']
 let wordArr = ['W','A','L','I','D']
 let inputArr = []
 const winWord = 'WALID'
-let answer = inputArr[0]+inputArr[1]+inputArr[2]+inputArr[3]+inputArr[4]
+
   let di 
   function write(){
     row1.forEach(function(key){
@@ -108,7 +108,7 @@ function checkLoses(){
     }
 }
 function retry(){
-    count = count +1
+    count = count +2 
     dis1.textContent =' '
     dis2.textContent = ' '
     dis3.textContent = ' '

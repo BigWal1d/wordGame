@@ -127,17 +127,14 @@ let qaArray = [
     answer: ['A','L','O','N','E']
 },
     {
-    question:'  , Supercars',
-    answer: ['S','P','E','E','D']
+    question:' Italy , Meal',
+    answer: ['P','I','Z','Z','A']
 },
     {
-    question:'Fast, Supercars',
-    answer: ['S','P','E','E','D']
+    question:'Sci-Fi, beam',
+    answer: ['L','A','S','E','R']
 },
-    {
-    question:'Fast, Supercars',
-    answer: ['S','P','E','E','D']
-},
+   
 ]
 qaArray.sort(() => 0.5 - Math.random())
 console.log(qaArray);
